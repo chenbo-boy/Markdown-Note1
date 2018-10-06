@@ -297,13 +297,13 @@ public static void main(String[] args){}
 
 |#|语法|效果|
 |----|----|----|
-|1|`![百度](http://www.baidu.com/img/bdlogo.gif "百度")`|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")|
-|2|`![][foryou]`|![foryou]|
+|1|`![百度](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![百度](http://www.baidu.com/img/bdlogo.gif "百度logo")|
+|2|`![][baidu]`|![baidu]|
 
->[foryou]的定义：
-`[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif`
+>[baidu]的定义：
+`[baidu]:http://www.baidu.com/img/bdlogo.gif "百度logo"`
 
-[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+[baidu]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 
 ### 图片链接
     语法：普通链接和插入图片可以混合使用，即图片链接
