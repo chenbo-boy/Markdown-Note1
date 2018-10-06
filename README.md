@@ -298,12 +298,12 @@ public static void main(String[] args){}
 |#|语法|效果|
 |----|----|----|
 |1|`![百度](http://www.baidu.com/img/bdlogo.gif "百度logo")`|![百度](http://www.baidu.com/img/bdlogo.gif "百度logo")|
-|2|`![][baidu]`|![baidu]|
+|2|`![][baiduImage]`|![baiduImage]|
 
->[baidu]的定义：
-`[baidu]:http://www.baidu.com/img/bdlogo.gif "百度logo"`
+>[baiduImage]的定义：
+`[baiduImage]:http://www.baidu.com/img/bdlogo.gif "百度logo"`
 
-[baidu]:http://www.baidu.com/img/bdlogo.gif "百度logo"
+[baiduImage]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 
 ### 图片链接
     语法：普通链接和插入图片可以混合使用，即图片链接
