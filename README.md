@@ -270,7 +270,10 @@ public static void main(String[] args){}
 也可以使用引用的方式
 
 语法：[标题][引用]
-如：[百度][baidu]
+如：
+[百度][baidu]
+
+定义名称为baidu的引用
 [baidu]:http://www.baidu.com/ "百度"
 ```
 效果：  
