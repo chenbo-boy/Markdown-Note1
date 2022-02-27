@@ -308,6 +308,17 @@ public static void main(String[] args){}
 
 [baiduImage]:http://www.baidu.com/img/bdlogo.gif "百度logo"
 
+#### 控制图片大小
+##### 方式一：使用html标签
+    <img src="http://www.baidu.com/img/bdlogo.gif" width = "50" height = "50" alt="百度" align=center />
+效果：  
+<img src="http://www.baidu.com/img/bdlogo.gif" width = "50" height = "50" alt="百度" align=center />
+##### 方式二：有些markdown编辑器支持设置大小
+```
+Mou中支持写法：![test image size](url){:height="100px" width="400px"}
+其他编辑器：![](http://www.baidu.com/img/bdlogo.gif =100x100)
+```
+
 ### 图片链接
     语法：普通链接和插入图片可以混合使用，即图片链接
 |#|语法|效果|
